@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  padding: 8px;
+  background-color: cornsilk;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  &__greeting {
+    opacity: 0.5;
+  }
+
+  &__avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 16px;
+  }
+}
